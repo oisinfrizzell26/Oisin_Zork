@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -30,6 +31,7 @@ public:
     QPushButton *westButton;
     QPushButton *southButton;
     QPushButton *mapButton;
+    QLabel *background;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -45,20 +47,40 @@ public:
         lineEdit->setGeometry(QRect(10, 10, 781, 28));
         northButton = new QPushButton(centralwidget);
         northButton->setObjectName("northButton");
-        northButton->setGeometry(QRect(290, 120, 100, 32));
+        northButton->setGeometry(QRect(290, 40, 161, 71));
+        northButton->setStyleSheet(QString::fromUtf8("color:rgb(0, 0, 0);\n"
+"background-color: rgb(255, 0, 0);"));
         eastButton = new QPushButton(centralwidget);
         eastButton->setObjectName("eastButton");
-        eastButton->setGeometry(QRect(400, 170, 100, 32));
+        eastButton->setGeometry(QRect(500, 80, 171, 71));
+        eastButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 0, 12);"));
         westButton = new QPushButton(centralwidget);
         westButton->setObjectName("westButton");
-        westButton->setGeometry(QRect(170, 160, 100, 32));
+        westButton->setGeometry(QRect(90, 90, 151, 71));
+        westButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 12, 0);"));
         southButton = new QPushButton(centralwidget);
         southButton->setObjectName("southButton");
-        southButton->setGeometry(QRect(290, 210, 100, 32));
+        southButton->setGeometry(QRect(290, 130, 161, 71));
+        southButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 0, 0);"));
         mapButton = new QPushButton(centralwidget);
         mapButton->setObjectName("mapButton");
-        mapButton->setGeometry(QRect(160, 300, 100, 32));
+        mapButton->setGeometry(QRect(30, 400, 181, 101));
+        mapButton->setStyleSheet(QString::fromUtf8("color:rgb(0, 0, 0);\n"
+"background-color: rgb(255, 8, 0);"));
+        background = new QLabel(centralwidget);
+        background->setObjectName("background");
+        background->setGeometry(QRect(10, 40, 771, 481));
         MainWindow->setCentralWidget(centralwidget);
+        background->raise();
+        lineEdit->raise();
+        northButton->raise();
+        eastButton->raise();
+        westButton->raise();
+        southButton->raise();
+        mapButton->raise();
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
         menubar->setGeometry(QRect(0, 0, 800, 37));
@@ -75,11 +97,12 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        northButton->setText(QCoreApplication::translate("MainWindow", "North", nullptr));
-        eastButton->setText(QCoreApplication::translate("MainWindow", "East", nullptr));
-        westButton->setText(QCoreApplication::translate("MainWindow", "West", nullptr));
-        southButton->setText(QCoreApplication::translate("MainWindow", "South", nullptr));
+        northButton->setText(QCoreApplication::translate("MainWindow", "Go North", nullptr));
+        eastButton->setText(QCoreApplication::translate("MainWindow", "Go East", nullptr));
+        westButton->setText(QCoreApplication::translate("MainWindow", "Go West", nullptr));
+        southButton->setText(QCoreApplication::translate("MainWindow", "Go South", nullptr));
         mapButton->setText(QCoreApplication::translate("MainWindow", "Map", nullptr));
+        background->setText(QString());
     } // retranslateUi
 
 };
