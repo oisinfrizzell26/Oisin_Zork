@@ -26,6 +26,7 @@ public:
     //void play();
     bool update(std::string buffer);
 	string go(string direction);
+
 };
 
 #endif /*ZORKUL_H_*/

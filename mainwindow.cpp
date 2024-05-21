@@ -26,6 +26,8 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_northButton_clicked()
 {
+    std::string result = zorkUL.go("north");
+    std::cout << result << std::endl;
 
 }
 
@@ -33,17 +35,35 @@ void MainWindow::on_northButton_clicked()
 void MainWindow::on_westButton_clicked()
 {
 
+    std::string result = zorkUL.go("west");
+    std::cout << result << std::endl;
+
 }
 
 
 void MainWindow::on_eastButton_clicked()
 {
 
+    std::string result = zorkUL.go("east");
+    std::cout << result << std::endl;
+
 }
 
 
 void MainWindow::on_southButton_clicked()
 {
+
+    std::string result = zorkUL.go("south");
+    std::cout << result << std::endl;
+
+}
+
+
+void MainWindow::on_mapButton_clicked()
+{
+    bool finished = zorkUL.update("map");
+
+
 
 }
 

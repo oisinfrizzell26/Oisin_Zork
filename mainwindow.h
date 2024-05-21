@@ -30,6 +30,8 @@ private slots:
 
     void on_southButton_clicked();
 
+    void on_mapButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     ZorkUL zorkUL;
