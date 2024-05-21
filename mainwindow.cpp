@@ -21,18 +21,20 @@ MainWindow::~MainWindow()
 void MainWindow::on_lineEdit_returnPressed()
 {
     bool finished = zorkUL.update(ui->lineEdit->text().toStdString());
+    //updates the game with entered text
 
     if (finished)
         QCoreApplication::quit();
 
-    ui->lineEdit->clear();
+    ui->lineEdit->clear(); // clears the line when entered
 }
 
 
 void MainWindow::on_northButton_clicked()
 {
     std::string result = zorkUL.go("north");
-    std::cout << result << std::endl;
+    std::cout << result << std::endl; //prints result to console
+    //implemented by passing the value ie "north" in the go method
 
 }
 

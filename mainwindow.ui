@@ -35,7 +35,8 @@
     </property>
     <property name="styleSheet">
      <string notr="true">color:rgb(0, 0, 0);
-background-color: rgb(255, 0, 0);</string>
+background-color: rgb(80, 235, 255);
+border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Go North</string>
@@ -52,7 +53,8 @@ background-color: rgb(255, 0, 0);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(255, 0, 12);</string>
+background-color: rgb(80, 235, 255);
+border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Go East</string>
@@ -69,7 +71,8 @@ background-color: rgb(255, 0, 12);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(255, 12, 0);</string>
+background-color: rgb(80, 235, 255);
+border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Go West</string>
@@ -86,7 +89,8 @@ background-color: rgb(255, 12, 0);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(255, 0, 0);</string>
+border-color: rgb(0, 0, 0);
+background-color: rgb(80, 235, 255);</string>
     </property>
     <property name="text">
      <string>Go South</string>
@@ -103,7 +107,8 @@ background-color: rgb(255, 0, 0);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">color:rgb(0, 0, 0);
-background-color: rgb(255, 8, 0);</string>
+background-color: rgb(80, 235, 255);
+border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Map</string>

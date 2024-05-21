@@ -10,7 +10,7 @@ class CommandWords {
 private:
 	//Define a static vector for our valid command words.
 	//We'll populate this in the class constructor
-	static vector<string> validCommands;
+    static vector<string> validCommands; //vector is a dynamic array that can grow so ie validCOmmands will hold a list of strings
 
 public:
 	CommandWords();

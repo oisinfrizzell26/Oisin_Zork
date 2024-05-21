@@ -4,16 +4,16 @@
 #include <string>
 using namespace std;
 
-class Command {
+class Command { // class definition for command
 private:
 	string commandWord;
 	string secondWord;
 
-public:
+public: // decalring methods that are public
 	Command(string firstWord, string secondWord);
 	string getCommandWord();
 	string getSecondWord();
-	bool isUnknown();
+    bool isUnknown(); //checks if the command is unknown
 	bool hasSecondWord();
 };
 

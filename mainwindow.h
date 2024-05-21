@@ -5,7 +5,7 @@
 
 #include <QMainWindow>
 
-QT_BEGIN_NAMESPACE
+QT_BEGIN_NAMESPACE // organises code into sepertate named sections
 namespace Ui {
 class MainWindow;
 }

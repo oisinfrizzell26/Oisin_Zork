@@ -49,27 +49,32 @@ public:
         northButton->setObjectName("northButton");
         northButton->setGeometry(QRect(290, 40, 161, 71));
         northButton->setStyleSheet(QString::fromUtf8("color:rgb(0, 0, 0);\n"
-"background-color: rgb(255, 0, 0);"));
+"background-color: rgb(80, 235, 255);\n"
+"border-color: rgb(0, 0, 0);"));
         eastButton = new QPushButton(centralwidget);
         eastButton->setObjectName("eastButton");
         eastButton->setGeometry(QRect(500, 80, 171, 71));
         eastButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(255, 0, 12);"));
+"background-color: rgb(80, 235, 255);\n"
+"border-color: rgb(0, 0, 0);"));
         westButton = new QPushButton(centralwidget);
         westButton->setObjectName("westButton");
         westButton->setGeometry(QRect(90, 90, 151, 71));
         westButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(255, 12, 0);"));
+"background-color: rgb(80, 235, 255);\n"
+"border-color: rgb(0, 0, 0);"));
         southButton = new QPushButton(centralwidget);
         southButton->setObjectName("southButton");
         southButton->setGeometry(QRect(290, 130, 161, 71));
         southButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
-"background-color: rgb(255, 0, 0);"));
+"border-color: rgb(0, 0, 0);\n"
+"background-color: rgb(80, 235, 255);"));
         mapButton = new QPushButton(centralwidget);
         mapButton->setObjectName("mapButton");
         mapButton->setGeometry(QRect(30, 400, 181, 101));
         mapButton->setStyleSheet(QString::fromUtf8("color:rgb(0, 0, 0);\n"
-"background-color: rgb(255, 8, 0);"));
+"background-color: rgb(80, 235, 255);\n"
+"border-color: rgb(0, 0, 0);"));
         background = new QLabel(centralwidget);
         background->setObjectName("background");
         background->setGeometry(QRect(10, 40, 771, 481));
