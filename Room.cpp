@@ -8,13 +8,13 @@ Room::Room(string description) {
 
 void Room::setExits(Room *north, Room *east, Room *south, Room *west) {
 	if (north != NULL)
-		exits["north"] = north;
+        exits["north"] = north;
 	if (east != NULL)
-		exits["east"] = east;
+        exits["east"] = east;
 	if (south != NULL)
-		exits["south"] = south;
+        exits["south"] = south;
 	if (west != NULL)
-		exits["west"] = west;
+        exits["west"] = west;
 }
 
 string Room::shortDescription() {
@@ -30,7 +30,7 @@ string Room::exitString() {
 	for (map<string, Room*>::iterator i = exits.begin(); i != exits.end(); i++)
 		// Loop through map
 		returnString += "  " + i->first;	// access the "first" element of the pair (direction as a string)
-	return returnString;
+    return returnString+ "\n\n";
 }
 
 Room* Room::nextRoom(string direction) {
