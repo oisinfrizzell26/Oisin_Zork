@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/build/Qt_6_7_0_for_macOS-Debug/QTZork_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/build/Qt_6_7_0_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/build/Qt_6_7_0_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking",
+	"CMAKE_SOURCE_DIR" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking",
+	"INCLUDE_DIR" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/build/Qt_6_7_0_for_macOS-Debug/QTZork_autogen/include",
+	"INPUTS" : [ "/Users/oisinfrizzell/Desktop/zorkimage.jpg" ],
+	"LOCK_FILE" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/QTZork_autogen.dir/AutoRcc_pictureForUI_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "pictureForUI" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_pictureForUI.cpp",
+	"RCC_EXECUTABLE" : "/Users/oisinfrizzell/Qt/6.7.0/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/QTZork_autogen.dir/AutoRcc_pictureForUI_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/pictureForUI.qrc",
+	"VERBOSITY" : 0
+}

@@ -90,24 +90,10 @@ QTZork_autogen/timestamp: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h \
   /Users/oisinfrizzell/Desktop/C++/ZorkWorking/CMakeLists.txt \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Character.cpp \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Character.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Command.cpp \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Command.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/CommandWords.cpp \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/CommandWords.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Parser.cpp \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Parser.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Room.cpp \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Room.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/ZorkUL.cpp \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/ZorkUL.h \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   QTZork_autogen/moc_predefs.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/item.cpp \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/item.h \
   /Users/oisinfrizzell/Desktop/C++/ZorkWorking/main.cpp \
   /Users/oisinfrizzell/Desktop/C++/ZorkWorking/mainwindow.cpp \
   /Users/oisinfrizzell/Desktop/C++/ZorkWorking/mainwindow.h \

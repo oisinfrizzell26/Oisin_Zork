@@ -1,11 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "ZorkUL.h"
-
 #include <QMainWindow>
 
-QT_BEGIN_NAMESPACE // organises code into sepertate named sections
+QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
@@ -20,20 +18,19 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_lineEdit_returnPressed();
-
     void on_northButton_clicked();
 
-    void on_westButton_clicked();
-
     void on_eastButton_clicked();
+
+    void on_westButton_clicked();
 
     void on_southButton_clicked();
 
     void on_mapButton_clicked();
 
+    void on_lineEdit_cursorPositionChanged(int arg1, int arg2);
+
 private:
     Ui::MainWindow *ui;
-    ZorkUL zorkUL;
 };
 #endif // MAINWINDOW_H

@@ -291,48 +291,6 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Character.h",
-			"MU",
-			"EWIEGA46WW/moc_Character.cpp",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Command.h",
-			"MU",
-			"EWIEGA46WW/moc_Command.cpp",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/CommandWords.h",
-			"MU",
-			"EWIEGA46WW/moc_CommandWords.cpp",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Parser.h",
-			"MU",
-			"EWIEGA46WW/moc_Parser.cpp",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Room.h",
-			"MU",
-			"EWIEGA46WW/moc_Room.cpp",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/ZorkUL.h",
-			"MU",
-			"EWIEGA46WW/moc_ZorkUL.cpp",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/item.h",
-			"MU",
-			"EWIEGA46WW/moc_item.cpp",
-			null
-		],
-		[
 			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -396,25 +354,6 @@
 	"SETTINGS_FILE" : "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/QTZork_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Character.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Command.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/CommandWords.cpp",
-			"MU",
-			null
-		],
-		[ "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Parser.cpp", "MU", null ],
-		[ "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/Room.cpp", "MU", null ],
-		[ "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/ZorkUL.cpp", "MU", null ],
-		[ "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/item.cpp", "MU", null ],
 		[ "/Users/oisinfrizzell/Desktop/C++/ZorkWorking/main.cpp", "MU", null ],
 		[
 			"/Users/oisinfrizzell/Desktop/C++/ZorkWorking/mainwindow.cpp",

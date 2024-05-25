@@ -90,12 +90,6 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/wait.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Command.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/CommandWords.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Parser.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/Room.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/ZorkUL.h \
-  /Users/oisinfrizzell/Desktop/C++/ZorkWorking/item.h \
   /Users/oisinfrizzell/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/oisinfrizzell/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/oisinfrizzell/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \

@@ -36,13 +36,15 @@ namespace {
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::stringData(
     "MainWindow",
-    "on_lineEdit_returnPressed",
-    "",
     "on_northButton_clicked",
-    "on_westButton_clicked",
+    "",
     "on_eastButton_clicked",
+    "on_westButton_clicked",
     "on_southButton_clicked",
-    "on_mapButton_clicked"
+    "on_mapButton_clicked",
+    "on_lineEdit_cursorPositionChanged",
+    "arg1",
+    "arg2"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -68,7 +70,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        4,    0,   52,    2, 0x08,    3 /* Private */,
        5,    0,   53,    2, 0x08,    4 /* Private */,
        6,    0,   54,    2, 0x08,    5 /* Private */,
-       7,    0,   55,    2, 0x08,    6 /* Private */,
+       7,    2,   55,    2, 0x08,    6 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -76,7 +78,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,    8,    9,
 
        0        // eod
 };
@@ -90,18 +92,20 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMainWindowENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
-        // method 'on_lineEdit_returnPressed'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_northButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_westButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_eastButton_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_westButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_southButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_mapButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_lineEdit_cursorPositionChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
 } };
@@ -112,16 +116,15 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_lineEdit_returnPressed(); break;
-        case 1: _t->on_northButton_clicked(); break;
+        case 0: _t->on_northButton_clicked(); break;
+        case 1: _t->on_eastButton_clicked(); break;
         case 2: _t->on_westButton_clicked(); break;
-        case 3: _t->on_eastButton_clicked(); break;
-        case 4: _t->on_southButton_clicked(); break;
-        case 5: _t->on_mapButton_clicked(); break;
+        case 3: _t->on_southButton_clicked(); break;
+        case 4: _t->on_mapButton_clicked(); break;
+        case 5: _t->on_lineEdit_cursorPositionChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *MainWindow::metaObject() const
